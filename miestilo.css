@@ -36,6 +36,9 @@ footer ul li a {
     border: 1px solid #99A799;
     border-radius: 4px;
 }
+footer ul li:hover {
+    background-color:  lightblue;
+}
 
 footer h4 {
     color: #99A799;
@@ -104,17 +107,29 @@ footer h4 {
 .bodyPadreGrid .clientes {
     grid-area: clientes;
 }
+.clientes:hover {
+    background-color:  lightblue;
+}
 
 .bodyPadreGrid .sobreMi {
     grid-area: sobreMi;
+}
+.sobreMi:hover {
+    background-color:  lightblue;
 }
 
 .bodyPadreGrid .producto {
     grid-area: producto;
 }
+.producto:hover {
+    background-color:  lightblue;
+}
 
 .bodyPadreGrid .contacto {
     grid-area: contacto;
+}
+.contacto:hover {
+    background-color:  lightblue;
 }
 
 .bodyPadreGrid .footer {
