@@ -26,6 +26,7 @@ footer {
 
 footer ul li {
     list-style-type: none;
+    transition: 0.75s ease 0.25s;
 }
 
 footer ul li a {
@@ -102,6 +103,7 @@ footer h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.75s ease 0.25s;
 }
 
 .bodyPadreGrid .clientes {
@@ -148,3 +150,16 @@ footer h4 {
             "contacto"
     }
 }
+.fotito {
+    animation-name:tresColores;
+    animation-duration: 3s; 
+    animation-iteration-count:infinite;
+    line-height:150px;
+    color: green;
+ }
+  
+ @keyframes tresColores{
+   0%{ background: #68C5DB }
+   50%{background: #02182B}
+   100%{background: yellow}
+ }
