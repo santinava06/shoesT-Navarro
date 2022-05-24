@@ -148,3 +148,12 @@ footer h4 {
             "contacto"
     }
 }
+h1 {
+    font-size: Time;
+}
+/* Clientes */
+.imgCarnet {
+    width: 150px;
+    height: 150px;
+}
+
