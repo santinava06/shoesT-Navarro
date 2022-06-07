@@ -1,0 +1,29 @@
+/*/ Condicionales /*/
+
+$vista: escritorio;
+$tamañofuente:grande;
+
+@if($vista == escritorio){
+    body {
+        background-color: papayawhip;
+    }
+}@else{
+    body {
+        background-color: aqua;
+    }
+}
+
+// otra forma 
+
+p {
+    @if($tamañofuente == grande){
+        color: orangered;
+        font-size: 2rem;
+    }@else if($tamañofuente == pata){
+        color:gold;
+        font-size: 1.5rem;
+    }@else {
+        color:red;
+        font-size: 0.5rem;
+    }
+}

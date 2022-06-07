@@ -1,3 +1,90 @@
+/*/ Sass 2 /*/
+/*/ Condicionales /*/
+body {
+  background-color: papayawhip; }
+
+p {
+  color: orangered;
+  font-size: 2rem; }
+
+/*/ Bucles /*/
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 3.5rem; }
+
+h4 {
+  font-size: 4.5rem; }
+
+h5 {
+  font-size: 5.5rem; }
+
+h6 {
+  font-size: 6.5rem; }
+
+h3 {
+  color: rgba(156, 37, 54, 0.333333); }
+
+h4 {
+  color: rgba(157, 38, 55, 0.333333); }
+
+h5 {
+  color: rgba(158, 39, 56, 0.333333); }
+
+h6 {
+  color: rgba(159, 40, 57, 0.333333); }
+
+.pink {
+  color: pink; }
+
+.red {
+  color: red; }
+
+.green {
+  color: green; }
+
+.blue {
+  color: blue; }
+
+/*/ Maps /*/
+.facebook {
+  color: red; }
+
+.instagram {
+  color: green; }
+
+.twitter {
+  color: yellow; }
+
+/*/ Map-Get /*/
+.riverDale {
+  background-color: red;
+  font-size: 30px;
+  height: 150px;
+  width: 150px; }
+
+/*/ Extend /*/
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+/*/ Mixin /*/
+/*Mixin con parametros*/
+.parrafosConHambre {
+  font-size: 1.5rem;
+  text-align: right; }
+
+/*Mixin sin parametros*/
+.parrafosConEstilo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  text-align: center; }
+
 body {
   background-color: bisque; }
   body header {
@@ -14,9 +101,9 @@ body {
         display: inline-block; }
         body header nav li a {
           text-decoration: none;
-          color: black;
+          color: orange;
           margin: 20px 20px;
-          font-size: 1.5rem; }
+          font-size: 2rem; }
           body header nav li a:hover {
             background-color: white; }
 
@@ -33,15 +120,15 @@ body footer {
         text-decoration: none;
         color: black;
         margin: 20px 20px;
-        font-size: 1.5rem; }
+        font-size: 2rem; }
         body footer nav li a:hover {
           background-color: white; }
 
 body div {
   display: flex; }
   body div p {
-    color: green;
-    font-size: 1.5rem; }
+    color: orange;
+    font-size: 2rem; }
 
 body footer div {
   text-align: end;

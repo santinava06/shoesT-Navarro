@@ -1,0 +1,19 @@
+/*/ Bucles /*/
+
+@for $i from 2 to 7 {
+    h#{$i} {
+        font-size: 0.5rem + $i;
+    }
+}
+@for $i from 3 through 6 {
+    h#{$i} {
+        color: #9235 + $i;
+    }
+}
+$lista:valor1,valor2,valor3;
+
+$colores: 'pink', 'red', 'green', 'blue';
+
+@each $color in $colores {
+    .#{$color} {color: #{$color}}
+}

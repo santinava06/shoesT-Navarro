@@ -1,3 +1,10 @@
+/*/ Sass 2 /*/
+@import "variables";
+@import "condicionales";
+@import "bucles";
+@import "maps";
+@import "extend";
+@import "mixin";
 
 body {
     background-color: bisque;
@@ -20,9 +27,9 @@ body {
                 
                 a{
                     text-decoration: none;
-                    color:black;
+                    color:$color-texto;
                     margin:20px 20px;
-                    font-size:1.5rem;
+                    font-size:$size-texto;
 
 
                     &:hover {
@@ -48,7 +55,7 @@ body {
                     text-decoration: none;
                     color:black;
                     margin:20px 20px;
-                    font-size:1.5rem;
+                    font-size:$size-texto;
 
                     &:hover{
                         background-color: white;
@@ -62,8 +69,8 @@ body {
     div {
         display: flex;
         p {
-            color:green;
-            font-size: 1.5rem;
+            color:$color-texto;
+            font-size:$size-texto;
         }
     }
 }
